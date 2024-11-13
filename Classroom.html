@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ques Practice</title>
+  </head>
+  <body>
+    <table border="black">
+      <caption>
+        Student Information
+      </caption>
+      <tr>
+        <th rowspan="6">Info</th>
+        <th rowspan="2">Name</th>
+        <th colspan="2">Address</th>
+      </tr>
+      <tr>
+        <th>Citye</th>
+        <th>House</th>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>Delhi</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>B</td>
+        <td>Mumbai</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td>Kolkata</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>D</td>
+        <td>Pune</td>
+        <td>4</td>
+      </tr>
+    </table>
+
+    <br />
+    <br />
+
+    <form>
+      <label for="name">Name : </label>
+      <input type="text" name="name" />
+      <br />
+      <label for="Sex">Sex : </label>
+      <input type="radio" name="Sex" id="Male" value="Male" />
+      <label for="Male">Male</label>
+      <input type="radio" name="Sex" id="Female" value="Female" />
+      <label for="Female">Female</label>
+      <br />
+      <lebel for="Country">Country : </lebel>
+      <select name="Country" id="country">
+        <option>Select an option</option>
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="Canada">Canada</option>
+        <option value="Nepal">Nepal</option>
+      </select>
+
+      <br />
+
+      <br />
+
+      <lebel for="Message">Message :</lebel>
+      <textarea id="message"></textarea>
+      <br />
+      <input type="checkbox" name="subscribe" id="subscribe" />
+      <lebel for="subscribe">Subscribe ? </lebel>
+
+      <br />
+      <button>Submit</button>
+    </form>
+
+    <form>
+      <h1>Feedback Form</h1>
+
+      <lebel for="name">Name : </lebel>
+      <input type="text" name="name" placeholder="Write your name" />
+      <br />
+
+      <br />
+
+      <leble for="Email">Email :</leble>
+      <input type="mail" id="Email" placeholder="Write you email" />
+      <br />
+
+      <br />
+
+      <leble for="Message">Message :</leble>
+      <textarea name="Message" id="Message"></textarea>
+
+      <br />
+
+      <lebel fpr="rating">Rate us our of 5 :</lebel>
+      <br />
+
+      <input type="radio" name="Rating" id="one" value="one" />
+      <label for="one">1</label>
+      <br />
+
+      <input type="radio" name="Rating" id="Two" value="Two" />
+      <label for="Two">2</label>
+      <br />
+
+      <input type="radio" name="Rating" id="Three" value="Three" />
+      <label for="Three">3</label>
+      <br />
+
+      <input type="radio" name="Rating" id="Four" value="Four" />
+      <label for="Four">4</label>
+      <br />
+
+      <input type="radio" name="Rating" id="Five" value="Five" />
+      <label for="Five">5</label>
+      <br />
+      <button>Send your message</button>
+    </form>
+  </body>
+</html>
